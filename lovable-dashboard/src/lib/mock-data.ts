@@ -1,3 +1,5 @@
+import { getTrackedBrokers, getBrokerNames } from "./broker-config";
+
 export type Trend = "Improving" | "Declining" | "Stable";
 export type Severity = "critical" | "high" | "medium" | "low";
 export type Sentiment = "positive" | "mixed" | "negative";
@@ -90,17 +92,9 @@ export interface WeeklyReport {
 const slugify = (s: string) => s.toLowerCase().replace(/\s+/g, "-");
 
 // ============================================================
-// FULL BROKER LIST (as per project + user request)
+// DYNAMIC BROKER LIST - Supports adding new brokers via UI
 // ============================================================
-const ALL_BROKERS = [
-  "Zerodha",
-  "Groww",
-  "Angel One",
-  "Upstox",
-  "Fyers",
-  "ICICI Direct",
-  "Sahi Broking",
-] as const;
+const ALL_BROKERS = getBrokerNames();
 
 // ============================================================
 // REAL W21 DATA + FULL BROKERS (including Sahi Broking)
@@ -563,3 +557,52 @@ export const WEEKLY_REPORTS: WeeklyReport[] = [
 export const getCurrentWeek = () => WEEKLY_REPORTS[WEEKLY_REPORTS.length - 1];
 export const getWeek = (key: string) =>
   WEEKLY_REPORTS.find((w) => w.week === key) ?? getCurrentWeek();
+
+// Backwards compatible export that always returns normalized data (includes newly added brokers)
+export const getAllWeeklyReports = () => getNormalizedReports();
+
+/**
+ * Normalizes all weekly reports to include entries for ALL currently tracked brokers.
+ * When a user adds a new broker via the UI, this ensures every historical week
+ * automatically gets a placeholder entry for that broker.
+ */
+export function getNormalizedReports() {
+  const currentBrokers = getTrackedBrokers();
+
+  return WEEKLY_REPORTS.map((week) => {
+    const existingBrokers = new Map(week.brokers.map(b => [b.slug, b]));
+
+    const normalizedBrokers = currentBrokers.map((tracked) => {
+      if (existingBrokers.has(tracked.slug)) {
+        return existingBrokers.get(tracked.slug)!;
+      }
+
+      // Create a default/empty report for the newly tracked broker
+      return {
+        broker: tracked.name,
+        slug: tracked.slug,
+        overall_rating: 6.5,
+        trend: "Stable" as const,
+        rating_breakdown: {
+          engagement: 6.5,
+          sentiment: 6.5,
+          new_feature_response: 6.5,
+          technical_reliability: 6.5,
+          support: 6.5,
+          transparency: 6.5,
+          historical_trend: 6.5,
+        },
+        new_features: [],
+        key_quotes: [],
+        negative_themes: [],
+        technical_issues: [],
+        watch_items: [],
+      };
+    });
+
+    return {
+      ...week,
+      brokers: normalizedBrokers,
+    };
+  });
+}

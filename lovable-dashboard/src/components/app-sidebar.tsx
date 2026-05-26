@@ -8,6 +8,7 @@ import {
   MessageSquareQuote,
   Database,
   Activity,
+  UserPlus,
 } from "lucide-react";
 import {
   Sidebar,
@@ -25,6 +26,7 @@ import {
 const items = [
   { title: "Overview", url: "/", icon: LayoutDashboard },
   { title: "Brokers", url: "/brokers", icon: Users },
+  { title: "Manage Brokers", url: "/manage-brokers", icon: UserPlus },
   { title: "Trends & History", url: "/trends", icon: TrendingUp },
   { title: "New Features", url: "/features", icon: Sparkles },
   { title: "Technical Issues", url: "/issues", icon: AlertTriangle },
