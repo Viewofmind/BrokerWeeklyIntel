@@ -1,0 +1,51 @@
+[
+  {
+    "id": "30b77d01-c5ab-46b4-be4d-f409a8bdb8b8",
+    "broker": "Groww",
+    "platform": "x",
+    "text": "Got mail from @groww_official to change my name + submit KYC docs. Problem: They want me to change \"Shivam Kakkar\" to \"Shivam Kakkar\". Never requested any name change. When I flagged this on the app, reply was: submit docs or we'll freeze your account @SEBI_India @_groww",
+    "url": "https://x.com/shivkakkar2/status/2057091809088876699",
+    "author": "shivkakkar2",
+    "published_at": "2026-05-20T13:31:20Z",
+    "engagement": 0,
+    "sentiment": null,
+    "sentiment_score": null,
+    "topics": [],
+    "tags": [
+      "glitch",
+      "negative"
+    ],
+    "negative_theme": "Performance",
+    "technical_issue_type": "platform_wide",
+    "raw_metadata": {
+      "source": "x:agent_tool_calls",
+      "original_query": "agent_provided",
+      "is_reply": false,
+      "retweet_count": 0,
+      "quote_count": 0
+    }
+  },
+  {
+    "id": "69a06dac-6a1d-45a6-b959-b277179c0a93",
+    "broker": "Groww",
+    "platform": "x",
+    "text": "Never use groww. Nifty lo 23500 call option tiskuna Eroju. Entry 234 sl 223. Target 246. Groww lo 245.95 target trigger avvaledu. Kite lo 246.8 touch ayindi. Glitch anala em anali",
+    "url": "https://x.com/wolf_bgmi25/status/2057079990962049233",
+    "author": "wolf_bgmi25",
+    "published_at": "2026-05-20T12:44:23Z",
+    "engagement": 5,
+    "sentiment": null,
+    "sentiment_score": null,
+    "topics": [],
+    "tags": [],
+    "negative_theme": null,
+    "technical_issue_type": null,
+    "raw_metadata": {
+      "source": "x:agent_tool_calls",
+      "original_query": "agent_provided",
+      "is_reply": false,
+      "retweet_count": 0,
+      "quote_count": 0
+    }
+  }
+]

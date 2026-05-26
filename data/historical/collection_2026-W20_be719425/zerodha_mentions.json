@@ -1,0 +1,77 @@
+[
+  {
+    "id": "057253c0-1b59-4ab8-92b1-57afcaac3be6",
+    "broker": "Zerodha",
+    "platform": "x",
+    "text": "Zerodha Terminal is such a useless thing. If there is no activity for a few minutes, it just freezes. What is the point of coming out with features which do not work? @zerodha",
+    "url": "https://x.com/mohitdewan/status/2056975756132294965",
+    "author": "mohitdewan",
+    "published_at": "2026-05-20T05:50:11Z",
+    "engagement": 1,
+    "sentiment": null,
+    "sentiment_score": null,
+    "topics": [],
+    "tags": [
+      "glitch",
+      "negative"
+    ],
+    "negative_theme": "Performance",
+    "technical_issue_type": "feature_specific",
+    "raw_metadata": {
+      "source": "x:agent_tool_calls",
+      "original_query": "agent_provided",
+      "is_reply": false,
+      "retweet_count": 0,
+      "quote_count": 0
+    }
+  },
+  {
+    "id": "376902a6-e3a6-42d5-9232-5e8acc75ae42",
+    "broker": "Zerodha",
+    "platform": "x",
+    "text": "Arey bhai zerodha aj kyu crash ho gaya! Kya internal error aagaye hai xD",
+    "url": "https://x.com/arey_jainsaab/status/2056948932828451297",
+    "author": "arey_jainsaab",
+    "published_at": "2026-05-20T04:03:36Z",
+    "engagement": 1,
+    "sentiment": null,
+    "sentiment_score": null,
+    "topics": [],
+    "tags": [
+      "glitch",
+      "negative"
+    ],
+    "negative_theme": "Performance",
+    "technical_issue_type": "platform_wide",
+    "raw_metadata": {
+      "source": "x:agent_tool_calls",
+      "original_query": "agent_provided",
+      "is_reply": false,
+      "retweet_count": 0,
+      "quote_count": 0
+    }
+  },
+  {
+    "id": "1de7d6ba-cf68-4940-b41d-0910b1c9720e",
+    "broker": "Zerodha",
+    "platform": "x",
+    "text": "@zerodha technical glitch today",
+    "url": "https://x.com/MyXUpdates/status/2056942222474637662",
+    "author": "MyXUpdates",
+    "published_at": "2026-05-20T03:36:56Z",
+    "engagement": 0,
+    "sentiment": null,
+    "sentiment_score": null,
+    "topics": [],
+    "tags": [],
+    "negative_theme": null,
+    "technical_issue_type": null,
+    "raw_metadata": {
+      "source": "x:agent_tool_calls",
+      "original_query": "agent_provided",
+      "is_reply": false,
+      "retweet_count": 0,
+      "quote_count": 0
+    }
+  }
+]

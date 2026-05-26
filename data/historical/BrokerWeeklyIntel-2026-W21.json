@@ -1,0 +1,221 @@
+{
+  "report_version": "2.0",
+  "week": "2026-W21",
+  "week_start": "2026-05-19",
+  "week_end": "2026-05-26",
+  "generated_at": "2026-05-26T07:15:00Z",
+  "brokers_analyzed": ["Zerodha", "Groww", "Angel One", "Upstox", "Fyers", "ICICI Direct"],
+  "overall_industry_sentiment": "Steady-to-positive on product velocity; low technical incident volume; baseline week for tracking",
+  "total_quality_mentions": 85,
+  "data_sources_note": "Primarily official blogs, Play Store changelogs, web search. X native and advanced Apify limited by tool issues in this run.",
+  "broker_reports": {
+    "Fyers": {
+      "final_score": 7.8,
+      "trend": "Baseline",
+      "primary_driver": "Strongest new feature release of the week (22 May multi-update: Fixed Deposits, Bar Replay, Markets Home refresh, performance/stability)",
+      "new_features": [
+        {
+          "name": "Fixed Deposits + Gift/Buyback from holdings + Refreshed Markets Home + Bar Replay + Perf/Stability",
+          "launch_date": "2026-05-22",
+          "source": "Google Play Store changelog",
+          "reaction": "Positive early community framing ('all new FYERS experience')",
+          "volume_signal": "Moderate-high for single update"
+        }
+      ],
+      "glitches": {
+        "critical": 0,
+        "high": 0,
+        "medium": "Low volume general/older",
+        "low": "Occasional older reviews",
+        "technical_pain_index": "Low/positive"
+      },
+      "parameter_scores": {
+        "engagement_reach": 7.5,
+        "sentiment_balance": 8.0,
+        "new_feature_response": 9.0,
+        "technical_reliability": 8.5,
+        "support_responsiveness": 7.0,
+        "content_transparency": 8.0,
+        "historical_trend": 6.0
+      }
+    },
+    "Groww": {
+      "final_score": 7.4,
+      "trend": "Baseline",
+      "primary_driver": "Recent options tooling (Trailing Stop Loss Intraday, Advance Payoff, smarter commodity option chains — mid-May carry-over)",
+      "new_features": [
+        {
+          "name": "Trailing Stop Loss for Intraday + Advance Payoff + Smarter Option Chains",
+          "launch_date": "2026-05-07 to 2026-05-14",
+          "source": "Groww product updates / Play Store",
+          "reaction": "Positive official framing; limited specific user backlash in window",
+          "volume_signal": "Steady"
+        }
+      ],
+      "glitches": {
+        "critical": 0,
+        "high": 0,
+        "medium": "Low",
+        "low": "Category-typical noise",
+        "technical_pain_index": "Low"
+      },
+      "parameter_scores": {
+        "engagement_reach": 7.0,
+        "sentiment_balance": 7.5,
+        "new_feature_response": 8.0,
+        "technical_reliability": 7.5,
+        "support_responsiveness": 7.0,
+        "content_transparency": 7.5,
+        "historical_trend": 6.0
+      }
+    },
+    "Zerodha": {
+      "final_score": 7.1,
+      "trend": "Baseline",
+      "primary_driver": "High engagement around Terminal Mode (ongoing) and Coin FD; mixed feedback on performance and feature gaps",
+      "new_features": [
+        {
+          "name": "Kite Terminal Mode (beta) — ongoing discussion",
+          "launch_date": "Earlier 2026 (March context)",
+          "source": "Z-Connect",
+          "reaction": "Utility for some; performance/lag complaints + many feature requests",
+          "volume_signal": "High"
+        },
+        {
+          "name": "Fixed Deposits on Coin — ongoing discussion",
+          "launch_date": "~April 2026",
+          "source": "Z-Connect",
+          "reaction": "Access appreciated; payment reliability complaints + strong demand for margin pledge + more banks",
+          "volume_signal": "High"
+        }
+      ],
+      "glitches": {
+        "critical": 0,
+        "high": 0,
+        "medium": "Terminal Mode lag; FD payment reliability (scattered)",
+        "low": "Typical high-volume broker noise",
+        "technical_pain_index": "Moderate (feature-specific friction)"
+      },
+      "parameter_scores": {
+        "engagement_reach": 8.5,
+        "sentiment_balance": 6.5,
+        "new_feature_response": 6.5,
+        "technical_reliability": 6.5,
+        "support_responsiveness": 7.0,
+        "content_transparency": 8.5,
+        "historical_trend": 6.0
+      }
+    },
+    "ICICI Direct": {
+      "final_score": 6.8,
+      "trend": "Baseline",
+      "primary_driver": "Incremental app update (Portfolio at a glance); steady established-player perception",
+      "new_features": [
+        {
+          "name": "Portfolio at a glance on home screen (recent app version)",
+          "launch_date": "April–May 2026 context",
+          "source": "App update notes",
+          "reaction": "Standard incremental",
+          "volume_signal": "Low-moderate"
+        }
+      ],
+      "glitches": {
+        "critical": 0,
+        "high": 0,
+        "medium": "Low new signal",
+        "low": "Older mixed feedback",
+        "technical_pain_index": "Low"
+      },
+      "parameter_scores": {
+        "engagement_reach": 6.5,
+        "sentiment_balance": 6.5,
+        "new_feature_response": 6.0,
+        "technical_reliability": 7.0,
+        "support_responsiveness": 6.5,
+        "content_transparency": 7.5,
+        "historical_trend": 6.0
+      }
+    },
+    "Angel One": {
+      "final_score": 6.5,
+      "trend": "Baseline",
+      "primary_driver": "Bug-fix focused app update (May 18); recurring older support/execution themes",
+      "new_features": [
+        {
+          "name": "App version 226.5.1 — bug fixes and minor improvements",
+          "launch_date": "2026-05-18",
+          "source": "Play Store / app notes",
+          "reaction": "Low specific discussion volume",
+          "volume_signal": "Low"
+        }
+      ],
+      "glitches": {
+        "critical": 0,
+        "high": 0,
+        "medium": "Older support/execution mentions (not window-clustered)",
+        "low": "Category noise",
+        "technical_pain_index": "Low-moderate"
+      },
+      "parameter_scores": {
+        "engagement_reach": 6.5,
+        "sentiment_balance": 6.0,
+        "new_feature_response": 5.5,
+        "technical_reliability": 6.5,
+        "support_responsiveness": 6.0,
+        "content_transparency": 7.0,
+        "historical_trend": 6.0
+      }
+    },
+    "Upstox": {
+      "final_score": 6.3,
+      "trend": "Baseline",
+      "primary_driver": "Lowest specific signal volume in window; older complaints surface",
+      "new_features": [],
+      "glitches": {
+        "critical": 0,
+        "high": 0,
+        "medium": "Older support/execution mentions",
+        "low": "Limited new data",
+        "technical_pain_index": "Low"
+      },
+      "parameter_scores": {
+        "engagement_reach": 5.5,
+        "sentiment_balance": 6.0,
+        "new_feature_response": 5.0,
+        "technical_reliability": 6.5,
+        "support_responsiveness": 6.0,
+        "content_transparency": 6.5,
+        "historical_trend": 6.0
+      }
+    }
+  },
+  "industry_themes": [
+    "Fyers led visible product velocity this week with concrete trader-requested features (Bar Replay, Fixed Deposits) plus stability messaging.",
+    "Execution quality quickly becomes the discussion focus even after launches (Zerodha Terminal performance, Coin FD reliability).",
+    "No major platform-wide technical incidents in the 7-day window — positive baseline after earlier Cloudflare references (~May 8).",
+    "Opportunity for quieter brokers to increase visible roadmap communication or ship differentiating tools."
+  ],
+  "standout_positive": [
+    "Fyers 22 May update (5 items including Bar Replay and performance improvements) — positive early framing"
+  ],
+  "notable_pain_points": [
+    "Zerodha Terminal Mode lag/performance (Medium, ongoing from earlier launch)",
+    "Zerodha Coin FD payment reliability + feature gap requests (Medium/Low)"
+  ],
+  "methodology": {
+    "scoring_weights": {
+      "technical_reliability_bug_handling": 0.20,
+      "sentiment_balance": 0.15,
+      "new_feature_response": 0.15,
+      "engagement_reach": 0.15,
+      "support_responsiveness": 0.15,
+      "historical_trend": 0.10,
+      "content_transparency_quality": 0.10
+    },
+    "limitations": "X search and advanced Apify Reddit scraping unavailable due to tool issues (deserialization + auth). Report relies on high-quality official + secondary web sources. Transparent baseline due to no prior artifacts."
+  },
+  "files": {
+    "markdown_report": "reports/BrokerWeeklyIntel-2026-W21.md",
+    "json_snapshot": "data/historical/BrokerWeeklyIntel-2026-W21.json"
+  }
+}

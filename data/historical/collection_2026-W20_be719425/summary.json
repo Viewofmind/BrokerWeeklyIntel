@@ -1,0 +1,49 @@
+{
+  "run_id": "be719425-3c3a-4fd1-ba0e-1fb290628876",
+  "week": "2026-W20",
+  "date_range": {
+    "start": "2026-05-19T00:00:00",
+    "end": "2026-05-26T00:00:00"
+  },
+  "brokers": [
+    "Zerodha",
+    "Groww",
+    "Fyers",
+    "Angel One",
+    "Upstox",
+    "ICICI Direct"
+  ],
+  "sources": [
+    "web (limited for window)",
+    "x:agent_driven"
+  ],
+  "totals": {
+    "raw_results": 5,
+    "normalized_mentions": 5,
+    "errors": 2
+  },
+  "per_broker": {
+    "Zerodha": {
+      "mentions": 3
+    },
+    "Groww": {
+      "mentions": 2
+    },
+    "Fyers": {
+      "mentions": 0
+    },
+    "Angel One": {
+      "mentions": 0
+    },
+    "Upstox": {
+      "mentions": 0
+    },
+    "ICICI Direct": {
+      "mentions": 0
+    }
+  },
+  "errors": [
+    "WEB LIMITATION: Multiple WebConnector.search() attempts for exact historical window hung or returned 0 usable dated items (blog pages slow for retrospective; Play Store is current-only).",
+    "X COVERAGE: 5 high-signal technical issue posts from targeted agent-driven searches. Most feature-specific queries (terminal mode, bar replay, trailing stop, fixed deposits etc.) returned 0 relevant results for this 2026-05 window."
+  ]
+}
